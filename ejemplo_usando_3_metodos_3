@@ -1,0 +1,48 @@
+public class ejemplo_usando_3_metodos_3 {
+	public static void main(String [] args){
+		
+		int resultadodiv;
+		resultadodiv = dividir();
+	System.out.println("El resultado de la división es: "+resultadodiv);
+	
+		int resultadomul;
+		resultadomul = multiplicar();
+System.out.println("El resultado de la división es: "+resultadomul);
+	
+		int resultadosum;
+		resultadosum = sumar();
+System.out.println("El resultado de la división es: "+resultadosum);
+
+		int resultadorest;
+		resultadorest = restar();
+System.out.println("El resultado de la división es: "+resultadorest);
+	}
+		public static int dividir(){
+			int num1 = 40;
+			int num2 = 5;
+			int sumatoria;
+			sumatoria = num1/num2;
+			return sumatoria;
+}
+		public static int multiplicar(){
+			int num1 = 5;
+			int num2 = 8;
+			int multiplicacion;
+			multiplicacion = num1*num2;
+			return multiplicacion;
+}
+		public static int sumar(){
+			int num1 = 3;
+			int num2 = 15;
+			int sumatoria;
+			sumatoria = num1+num2;
+			return sumatoria;
+}
+		public static int restar(){
+			int num1 = 35;
+			int num2 = 15;
+			int resta;
+			resta = num1-num2;
+			return resta;
+}
+}
